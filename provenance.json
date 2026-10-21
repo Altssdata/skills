@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "skill": "altss-public-research",
+  "publisher": {
+    "name": "Altss",
+    "website": "https://altss.com"
+  },
+  "artifact": {
+    "path": "skills/altss-public-research/SKILL.md",
+    "sourceUrl": "https://altss.com/skills/altss-public-research/SKILL.md",
+    "sha256": "4f044f1314370fbeae0b7f84811364f135700e4734646c1f7908973d81f51755",
+    "bytes": 3386
+  },
+  "generatedAt": "2026-10-21T13:30:57.704Z",
+  "scope": "Portable instructions for reading and citing public information. No credentials, premium records or transaction authority."
+}
