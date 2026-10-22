@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "altss-public-research",
-  "version": "0.1.0",
-  "description": "Read and cite public Altss sources with the canonical public-research skill. No product credentials or transaction authority.",
+  "version": "0.2.0",
+  "description": "Research public Altss sources, verify profile evidence and prepare listing drafts. No product credentials or transaction authority.",
   "author": { "name": "Altss", "url": "https://altss.com" },
   "homepage": "https://altss.com/agents.md",
   "repository": "https://github.com/Altssdata/skills",

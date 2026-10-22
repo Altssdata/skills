@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "publisher": {
+    "name": "Altss",
+    "website": "https://altss.com"
+  },
+  "artifacts": [
+    {
+      "name": "altss-profile-verification",
+      "path": "skills/altss-profile-verification/SKILL.md",
+      "sourceUrl": "https://altss.com/skills/altss-profile-verification/SKILL.md",
+      "bytes": 2340,
+      "sha256": "8125b109e782ce745e904216615ff7b4fde2a4f891a96c6a1952e60e737c5c93"
+    },
+    {
+      "name": "altss-listing-preparation",
+      "path": "skills/altss-listing-preparation/SKILL.md",
+      "sourceUrl": "https://altss.com/skills/altss-listing-preparation/SKILL.md",
+      "bytes": 2527,
+      "sha256": "5fa50d00bacf785180cda568f1ce64780a9891b71bbe0b9372ec970d68c38f41"
+    }
+  ],
+  "scope": "Public verification and listing-draft instructions; no credentials, premium data or transaction authority."
+}
