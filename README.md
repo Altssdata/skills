@@ -28,6 +28,10 @@ npx skills@1.7.4 remove altss-public-research
 
 See the [skills CLI documentation](https://github.com/vercel-labs/skills) for installer options. Repository installation counts may contribute to discovery on skills.sh; listing or ranking is not guaranteed.
 
+## Agent rules and portable plugin
+
+[AGENTS.md](AGENTS.md) provides repository instructions for coding agents. The root [plugin.json](plugin.json) packages the existing skill using [Agent Plugins 1.0.0](https://agent-plugins.org/specification), with the fixed `skills/altss-public-research/SKILL.md` component location. It adds no MCP server, executable helper, credentials or product permissions. Client compatibility for the plugin format must be checked by that client; the earlier installer checks above concern the skill instructions only.
+
 ## Verify the artifact
 
 The package has no runtime dependencies. From a checkout of this repository:
