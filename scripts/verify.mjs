@@ -36,6 +36,30 @@ async function main() {
     assert(bytes.equals(published), `Canonical bytes differ: published sha256:${sha256(published)}; review the public revision before updating`);
     result.canonicalMatch = true;
   }
+  const additional = JSON.parse(await readFile(new URL("additional-provenance.json", packageRoot), "utf8"));
+  assert.equal(additional.schemaVersion, 1, "Unsupported additional provenance schema");
+  assert.deepEqual(additional.publisher, { name: "Altss", website: "https://altss.com" });
+  assert.deepEqual(additional.artifacts.map(artifact => artifact.name), ["altss-profile-verification", "altss-listing-preparation"], "Unexpected focused skill inventory");
+  result.additionalSkills = [];
+  for (const artifact of additional.artifacts) {
+    const expectedPath = `skills/${artifact.name}/SKILL.md`;
+    assert.equal(artifact.path, expectedPath, "Unexpected focused artifact path");
+    assert.equal(artifact.sourceUrl, `https://altss.com/${expectedPath}`, "Unexpected focused canonical URL");
+    const content = await readFile(new URL(expectedPath, packageRoot));
+    assert.equal(content.length, artifact.bytes, "Focused artifact byte count differs");
+    assert.match(artifact.sha256, /^[a-f0-9]{64}$/);
+    assert.equal(sha256(content), artifact.sha256, "Focused artifact digest differs");
+    const text = new TextDecoder("utf-8", { fatal: true }).decode(content);
+    assert(text.startsWith(`---\nname: ${artifact.name}\ndescription: `), "Focused artifact frontmatter differs");
+    let canonicalMatch = "not-requested";
+    if (args[0] === "--live") {
+      const response = await fetch(artifact.sourceUrl, { redirect: "error", signal: AbortSignal.timeout(10000), headers: { Accept: "text/markdown" } });
+      assert.equal(response.status, 200, `${artifact.name} canonical returned HTTP ${response.status}`);
+      assert(content.equals(Buffer.from(await response.arrayBuffer())), `${artifact.name} differs from its canonical bytes`);
+      canonicalMatch = true;
+    }
+    result.additionalSkills.push({ name: artifact.name, bytes: content.length, sha256: sha256(content), canonicalMatch });
+  }
   process.stdout.write(`${JSON.stringify(result, null, 2)}\n`);
 }
 
