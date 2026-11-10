@@ -2,7 +2,9 @@
 
 Read and cite Altss public pages, compare published offers and distinguish source dates from page updates. The skill points agents to current public information on [altss.com](https://altss.com/) and [Altss documentation](https://docs.altss.com/agents/public-research).
 
-The instruction file is an exact UTF-8 copy of the [canonical public skill](https://altss.com/skills/altss-public-research/SKILL.md). It includes no credentials or executable helpers. It does not provide premium intelligence, private contacts, authenticated application access or authority to purchase anything.
+The instruction file mirrors the [canonical public skill](https://altss.com/skills/altss-public-research/SKILL.md). It includes no credentials or executable helpers. It does not provide premium intelligence, private contacts, authenticated application access or authority to purchase anything.
+
+**Candidate revision:** This branch contains the exact UTF-8 bytes of the reviewed website candidate in [website PR #322](https://github.com/Altssdata/website/pull/322), which distinguishes protected SEC public-issuer research from manually reviewed private-market tasks. These bytes are not yet live at the canonical URL. [provenance.json](provenance.json) records the candidate and the observed production digest separately. Keep this revision unpublished until the website release is verified and the live comparison below passes.
 
 Choose the workflow that matches the request:
 
@@ -56,7 +58,7 @@ node scripts/verify.mjs --live
 
 [provenance.json](provenance.json) records the public source, SHA-256 digest and byte count. A digest checks integrity. Confirm publisher identity through Altss's own domain and official links before trusting a copy. The live check will fail when the website publishes a different revision; review the changed public instructions before updating this package.
 
-[additional-provenance.json](additional-provenance.json) binds the two focused workflows to their own canonical URLs, byte counts and digests. The original skill and its historical provenance are unchanged.
+[additional-provenance.json](additional-provenance.json) binds the two unchanged focused workflows to their own canonical URLs, byte counts and digests. The original public-research provenance is preserved verbatim in [provenance-history/public-research-20261021.json](provenance-history/public-research-20261021.json).
 
 ## Public references
 
