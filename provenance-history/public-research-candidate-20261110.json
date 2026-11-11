@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "skill": "altss-public-research",
+  "publisher": {
+    "name": "Altss",
+    "website": "https://altss.com"
+  },
+  "artifact": {
+    "path": "skills/altss-public-research/SKILL.md",
+    "sourceUrl": "https://altss.com/skills/altss-public-research/SKILL.md",
+    "sha256": "131f79315f6c7219bf94e8223c7547ae96f296c9541c8bf261a66451236a8f9e",
+    "bytes": 3724
+  },
+  "generatedAt": "2026-11-10T12:58:41.816Z",
+  "scope": "Portable instructions for reading and citing public information. No credentials, premium records or transaction authority.",
+  "publication": {
+    "status": "candidate-not-live",
+    "candidateSourceUrl": "http://localhost:4319/skills/altss-public-research/SKILL.md",
+    "capturedAt": "2026-11-10T12:58:41.816Z",
+    "websiteRepository": "https://github.com/Altssdata/website",
+    "websiteCandidate": "https://github.com/Altssdata/website/pull/322",
+    "sourceBaseCommit": "7203353c513bb5327365874bb79caa229ecee347",
+    "includesReviewedUncommittedWebsiteChanges": true,
+    "review": "The access paragraph now distinguishes manually reviewed private-market task templates from the separately authenticated SEC public-issuer research Console. The package still provides public reading instructions only and grants no credentials or purchase authority.",
+    "observedPublicArtifact": {
+      "sourceUrl": "https://altss.com/skills/altss-public-research/SKILL.md",
+      "capturedAt": "2026-11-10T12:58:41.816Z",
+      "bytes": 3386,
+      "sha256": "4f044f1314370fbeae0b7f84811364f135700e4734646c1f7908973d81f51755"
+    },
+    "releaseRequirement": "Do not publish this package revision as live until the approved website candidate serves these exact bytes and node scripts/verify.mjs --live succeeds. Then record the live verification and final website revision."
+  },
+  "history": [
+    {
+      "path": "provenance-history/public-research-20261021.json",
+      "description": "Unchanged original canonical artifact provenance, retained verbatim."
+    }
+  ]
+}
