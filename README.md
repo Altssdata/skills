@@ -4,7 +4,7 @@ Read and cite Altss public pages, compare published offers and distinguish sourc
 
 The instruction file mirrors the [canonical public skill](https://altss.com/skills/altss-public-research/SKILL.md). It includes no credentials or executable helpers. It does not provide premium intelligence, private contacts, authenticated application access or authority to purchase anything.
 
-**Verified canonical revision:** These instructions match the live website release [8feae55c](https://github.com/Altssdata/website/commit/8feae55c65ecf0a0cb62d55ea830314ae7bce10b), which distinguishes protected SEC public-issuer research from manually reviewed private-market tasks. All three canonical skill files passed exact-byte comparison. [provenance.json](provenance.json) records the live verification and deployment; the earlier candidate and original provenance remain preserved in [provenance-history](provenance-history). This package does not certify the separate Console credential lifecycle.
+**Verified canonical revision:** These instructions match the live website release [738aef54](https://github.com/Altssdata/website/commit/738aef541399d58e166c6430c0ad1d26054fb3af). This revision changes only the public-only specification link to /api/v1/openapi.json; the root now describes public and protected first-party APIs separately. All three canonical skill files passed exact-byte comparison. [provenance.json](provenance.json) records the live verification and deployment; earlier provenance remains preserved in [provenance-history](provenance-history). This package does not certify the separate Console credential lifecycle.
 
 Choose the workflow that matches the request:
 
@@ -65,7 +65,7 @@ node scripts/verify.mjs --live
 - [Agent guidance](https://altss.com/agents.md)
 - [Public content index](https://altss.com/llms.txt)
 - [Published offers and access rights](https://altss.com/commercial-catalog.json)
-- [Public descriptive interface](https://altss.com/openapi.json)
+- [Public descriptive interface](https://altss.com/api/v1/openapi.json)
 - [Documentation MCP](https://docs.altss.com/agents/using-altss): searches public documentation and includes a provider feedback submission tool. It does not expose premium intelligence or a purchase transport.
 - [Official documentation MCP registry record](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.altss-data%2Fdocs/versions/1.0.0)
 - [Documentation MCP on Glama](https://glama.ai/mcp/connectors/io.github.altss-data/docs)
