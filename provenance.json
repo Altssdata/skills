@@ -14,26 +14,23 @@
   "generatedAt": "2026-11-10T12:58:41.816Z",
   "scope": "Portable instructions for reading and citing public information. No credentials, premium records or transaction authority.",
   "publication": {
-    "status": "candidate-not-live",
-    "candidateSourceUrl": "http://localhost:4319/skills/altss-public-research/SKILL.md",
-    "capturedAt": "2026-11-10T12:58:41.816Z",
+    "status": "live",
+    "verifiedAt": "2026-11-11T00:01:33.301342Z",
     "websiteRepository": "https://github.com/Altssdata/website",
-    "websiteCandidate": "https://github.com/Altssdata/website/pull/322",
-    "sourceBaseCommit": "7203353c513bb5327365874bb79caa229ecee347",
-    "includesReviewedUncommittedWebsiteChanges": true,
-    "review": "The access paragraph now distinguishes manually reviewed private-market task templates from the separately authenticated SEC public-issuer research Console. The package still provides public reading instructions only and grants no credentials or purchase authority.",
-    "observedPublicArtifact": {
-      "sourceUrl": "https://altss.com/skills/altss-public-research/SKILL.md",
-      "capturedAt": "2026-11-10T12:58:41.816Z",
-      "bytes": 3386,
-      "sha256": "4f044f1314370fbeae0b7f84811364f135700e4734646c1f7908973d81f51755"
-    },
-    "releaseRequirement": "Do not publish this package revision as live until the approved website candidate serves these exact bytes and node scripts/verify.mjs --live succeeds. Then record the live verification and final website revision."
+    "websitePullRequest": "https://github.com/Altssdata/website/pull/322",
+    "websiteCommit": "8feae55c65ecf0a0cb62d55ea830314ae7bce10b",
+    "websiteDeploymentId": "dpl_EMYR8ae9jFpki8cVZcCPzFsesxFe",
+    "verification": "node scripts/verify.mjs --live passed for all three canonical skill URLs; each artifact matches its recorded UTF-8 bytes exactly.",
+    "scope": "Public reading instructions only. Console sign-in and public metadata have separate release evidence; the human-approved service_auth credential lifecycle remains incomplete and is not certified by this mirror."
   },
   "history": [
     {
       "path": "provenance-history/public-research-20261021.json",
       "description": "Unchanged original canonical artifact provenance, retained verbatim."
+    },
+    {
+      "path": "provenance-history/public-research-candidate-20261110.json",
+      "description": "Unchanged candidate provenance, including its earlier observed production digest and publication hold, retained verbatim."
     }
   ]
 }

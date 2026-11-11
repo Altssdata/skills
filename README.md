@@ -4,7 +4,7 @@ Read and cite Altss public pages, compare published offers and distinguish sourc
 
 The instruction file mirrors the [canonical public skill](https://altss.com/skills/altss-public-research/SKILL.md). It includes no credentials or executable helpers. It does not provide premium intelligence, private contacts, authenticated application access or authority to purchase anything.
 
-**Candidate revision:** This branch contains the exact UTF-8 bytes of the reviewed website candidate in [website PR #322](https://github.com/Altssdata/website/pull/322), which distinguishes protected SEC public-issuer research from manually reviewed private-market tasks. These bytes are not yet live at the canonical URL. [provenance.json](provenance.json) records the candidate and the observed production digest separately. Keep this revision unpublished until the website release is verified and the live comparison below passes.
+**Verified canonical revision:** These instructions match the live website release [8feae55c](https://github.com/Altssdata/website/commit/8feae55c65ecf0a0cb62d55ea830314ae7bce10b), which distinguishes protected SEC public-issuer research from manually reviewed private-market tasks. All three canonical skill files passed exact-byte comparison. [provenance.json](provenance.json) records the live verification and deployment; the earlier candidate and original provenance remain preserved in [provenance-history](provenance-history). This package does not certify the separate Console credential lifecycle.
 
 Choose the workflow that matches the request:
 
