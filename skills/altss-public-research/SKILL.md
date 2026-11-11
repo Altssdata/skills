@@ -27,4 +27,4 @@ Altss is not a placement agent, broker-dealer, finder, solicitor or capital intr
 Never scrape the authenticated application, bypass access controls, rotate accounts, enumerate hidden records, evade limits or extract bulk contacts. Ask for the user's intended public organization or research scope when ambiguous.
 
 This is a portable public-reading instruction package, not an official Altss CLI or SDK. curl examples are ordinary HTTP examples, not an Altss command-line product. Compatibility with individual agent clients must be tested before it is claimed. No credentials are included.
-Public descriptive interfaces are documented at https://altss.com/openapi.json . They return catalog metadata and JSON Schema documents, never premium records or task execution results. Technical documentation is at https://docs.altss.com/ .
+Public descriptive interfaces are documented at https://altss.com/api/v1/openapi.json . They return catalog metadata and JSON Schema documents, never premium records or task execution results. Technical documentation is at https://docs.altss.com/ .

@@ -8,20 +8,20 @@
   "artifact": {
     "path": "skills/altss-public-research/SKILL.md",
     "sourceUrl": "https://altss.com/skills/altss-public-research/SKILL.md",
-    "sha256": "131f79315f6c7219bf94e8223c7547ae96f296c9541c8bf261a66451236a8f9e",
-    "bytes": 3724
+    "sha256": "7f175a60b538ddadce90191ca4d4978d5423dc2a8e486ea7b80b301108a4d1d0",
+    "bytes": 3731
   },
-  "generatedAt": "2026-11-10T12:58:41.816Z",
+  "generatedAt": "2026-11-11T20:51:38.599Z",
   "scope": "Portable instructions for reading and citing public information. No credentials, premium records or transaction authority.",
   "publication": {
     "status": "live",
-    "verifiedAt": "2026-11-11T00:01:33.301342Z",
     "websiteRepository": "https://github.com/Altssdata/website",
-    "websitePullRequest": "https://github.com/Altssdata/website/pull/322",
-    "websiteCommit": "8feae55c65ecf0a0cb62d55ea830314ae7bce10b",
-    "websiteDeploymentId": "dpl_EMYR8ae9jFpki8cVZcCPzFsesxFe",
-    "verification": "node scripts/verify.mjs --live passed for all three canonical skill URLs; each artifact matches its recorded UTF-8 bytes exactly.",
-    "scope": "Public reading instructions only. Console sign-in and public metadata have separate release evidence; the human-approved service_auth credential lifecycle remains incomplete and is not certified by this mirror."
+    "websitePullRequest": "https://github.com/Altssdata/website/pull/332",
+    "websiteCommit": "738aef541399d58e166c6430c0ad1d26054fb3af",
+    "websiteDeploymentId": "dpl_38W9YNKxaYaQ939LeE3ELoki5GTY",
+    "scope": "Public reading instructions only. This mirror does not certify the separate Console credential or OAuth lifecycle.",
+    "verifiedAt": "2026-11-11T20:51:39.138Z",
+    "verification": "node scripts/verify.mjs --live passed for all three canonical skill URLs; each artifact matches its recorded UTF-8 bytes exactly."
   },
   "history": [
     {
@@ -31,6 +31,10 @@
     {
       "path": "provenance-history/public-research-candidate-20261110.json",
       "description": "Unchanged candidate provenance, including its earlier observed production digest and publication hold, retained verbatim."
+    },
+    {
+      "path": "provenance-history/public-research-live-20261111-000133.json",
+      "description": "Previous live canonical provenance, retained verbatim before the public-only OpenAPI URL correction."
     }
   ]
 }
