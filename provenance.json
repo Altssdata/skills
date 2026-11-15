@@ -8,20 +8,20 @@
   "artifact": {
     "path": "skills/altss-public-research/SKILL.md",
     "sourceUrl": "https://altss.com/skills/altss-public-research/SKILL.md",
-    "sha256": "7f175a60b538ddadce90191ca4d4978d5423dc2a8e486ea7b80b301108a4d1d0",
-    "bytes": 3731
+    "sha256": "87b84171a9ca744d0055c69fb5ec20a3a95c00c168ebf873ba6e004c1d6ad676",
+    "bytes": 3715
   },
-  "generatedAt": "2026-11-11T20:51:38.599Z",
+  "generatedAt": "2026-11-15T21:40:50.324302+00:00",
   "scope": "Portable instructions for reading and citing public information. No credentials, premium records or transaction authority.",
   "publication": {
-    "status": "live",
+    "status": "reviewed",
     "websiteRepository": "https://github.com/Altssdata/website",
-    "websitePullRequest": "https://github.com/Altssdata/website/pull/332",
-    "websiteCommit": "738aef541399d58e166c6430c0ad1d26054fb3af",
-    "websiteDeploymentId": "dpl_38W9YNKxaYaQ939LeE3ELoki5GTY",
-    "scope": "Public reading instructions only. This mirror does not certify the separate Console credential or OAuth lifecycle.",
-    "verifiedAt": "2026-11-11T20:51:39.138Z",
-    "verification": "node scripts/verify.mjs --live passed for all three canonical skill URLs; each artifact matches its recorded UTF-8 bytes exactly."
+    "websitePullRequest": "https://github.com/Altssdata/website/pull/343",
+    "websiteCommit": "5ee54a9e42ae86baeac5f7abd01a5cec6f982628",
+    "reviewedArtifactSha256": "87b84171a9ca744d0055c69fb5ec20a3a95c00c168ebf873ba6e004c1d6ad676",
+    "reviewedAt": "2026-11-15T21:40:50.324318+00:00",
+    "verification": "Independent byte comparison against the website preview verified that only the demo sentence changes from a primary next step to an optional walkthrough. Local package integrity checks cover all three skills. Live canonical parity must be verified during coordinated publication.",
+    "scope": "Public reading instructions only; no prices, permissions, runtime components or Console credential lifecycle changed."
   },
   "history": [
     {
@@ -35,6 +35,10 @@
     {
       "path": "provenance-history/public-research-live-20261111-000133.json",
       "description": "Previous live canonical provenance, retained verbatim before the public-only OpenAPI URL correction."
+    },
+    {
+      "path": "provenance-history/public-research-live-20261111-205139.json",
+      "description": "Previous live canonical provenance retained verbatim before the optional-demo wording correction."
     }
   ]
 }

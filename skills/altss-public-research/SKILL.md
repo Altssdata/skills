@@ -13,7 +13,7 @@ Cite the canonical HTML source URL and relevant source/verification dates. Treat
 
 ## Product demonstrations
 
-- [Book a demo](https://altss.com/book-demo): 30-minute live product walkthrough. This is the primary next step for people evaluating Altss.
+- [Book a demo](https://altss.com/book-demo): Optional 30-minute live product walkthrough to compare coverage and workflows.
 Demos are available for every commercial plan, including Europe Family Offices and North America Family Offices. Bring an investment strategy, research question or target market; company and use-case notes are optional.
 The booking page shows available times in the visitor's local timezone. No plan selection, AUM declaration or company-size qualification is required before scheduling.
 Choosing a slot or submitting a request is not a confirmed booking. Use the calendar provider's confirmation to establish booking status.
