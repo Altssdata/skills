@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "skill": "altss-public-research",
+  "publisher": {
+    "name": "Altss",
+    "website": "https://altss.com"
+  },
+  "artifact": {
+    "path": "skills/altss-public-research/SKILL.md",
+    "sourceUrl": "https://altss.com/skills/altss-public-research/SKILL.md",
+    "sha256": "87b84171a9ca744d0055c69fb5ec20a3a95c00c168ebf873ba6e004c1d6ad676",
+    "bytes": 3715
+  },
+  "generatedAt": "2026-11-15T21:40:50.324302+00:00",
+  "scope": "Portable instructions for reading and citing public information. No credentials, premium records or transaction authority.",
+  "publication": {
+    "status": "reviewed",
+    "websiteRepository": "https://github.com/Altssdata/website",
+    "websitePullRequest": "https://github.com/Altssdata/website/pull/343",
+    "websiteCommit": "5ee54a9e42ae86baeac5f7abd01a5cec6f982628",
+    "reviewedArtifactSha256": "87b84171a9ca744d0055c69fb5ec20a3a95c00c168ebf873ba6e004c1d6ad676",
+    "reviewedAt": "2026-11-15T21:40:50.324318+00:00",
+    "verification": "Independent byte comparison against the website preview verified that only the demo sentence changes from a primary next step to an optional walkthrough. Local package integrity checks cover all three skills. Live canonical parity must be verified during coordinated publication.",
+    "scope": "Public reading instructions only; no prices, permissions, runtime components or Console credential lifecycle changed."
+  },
+  "history": [
+    {
+      "path": "provenance-history/public-research-20261021.json",
+      "description": "Unchanged original canonical artifact provenance, retained verbatim."
+    },
+    {
+      "path": "provenance-history/public-research-candidate-20261110.json",
+      "description": "Unchanged candidate provenance, including its earlier observed production digest and publication hold, retained verbatim."
+    },
+    {
+      "path": "provenance-history/public-research-live-20261111-000133.json",
+      "description": "Previous live canonical provenance, retained verbatim before the public-only OpenAPI URL correction."
+    },
+    {
+      "path": "provenance-history/public-research-live-20261111-205139.json",
+      "description": "Previous live canonical provenance retained verbatim before the optional-demo wording correction."
+    }
+  ]
+}
